@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
 </head>
 <body>
-     <h1>quiz apploication is coming</h1>
+    <div id="main">
+        <h1>Quiz Application</h1>
+        <div id="next">
+            <div>
+                <p>what is my name</p>
+                <br><input name="name" id="ans1" type="radio">Tauseef</input>
+                <br><input name="name"  type="radio">Ahad</input>
+                <br><input name="name"  type="radio">Khubaib</input>
+                <br><input name="name"  type="radio">Umer</input>
+            </div>
+           <div>
+                <br><p>what is your favourite food item</p>
+                <br> <input name="name2" type="radio">biryani</input>
+                <br><input name="name2"  type="radio">tikka</input>
+                <br><input name="name2"  type="radio">karhai</input>
+                <br><input name="name2" id="ans2" type="radio">malai-boti</input>
+            </div>
+            <div>
+                <br><p>whick is your favourite shirt-bannd</p>
+                <br><input name="name3"  type="radio">levi's</input>
+                <br><input name="name3"  type="radio">england-home</input>
+                <br><input name="name3"  id="ans3"   type="radio">donoier</input>
+                <br><input name="name3"  type="radio">chase</input>
+            </div>
+        </div>
+        <br><br><br>        <button onclick="result()">submit</button>
+    </div>
+
 </body>
+<script src="quiz.js"></script>
 </html>
